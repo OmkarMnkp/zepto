@@ -1,0 +1,23 @@
+.best img {
+    height: 240px;
+    width: 180px;
+}
+
+.img-fluid {
+    height: 250px;
+    width: 250px;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,158 @@
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.carousel-item img {
+
+    width: 120px;
+    height: 170px;
+
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.hero img {
+    /* max-width: 100%; */
+    height: auto;
+    width: 110%;
+}
+.imgcont {
+    /* background-color: red; */
+    height: 330px;
+    width: 100%;
+}
+.imgcont img{
+    height: 310px;
+    width: 50%;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width:182px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.off{
+    background-color: rgb(100, 9, 185);
+    color: white;
+    width: 40px;
+    height: 50px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    padding: 3px;
+}
+
+.price{
+    margin-top: 30px;
+    /* background-color: red; */
+    width: 170px;
+}
+.dis{
+    text-decoration: line-through;
+}
+
+
+.caro-container{
+    height: 360px;
+    
+    background-color: rgb(255, 226, 187);
+    /* background-color: #dafde3; */
+    margin: 10px;
+    width: 99%;
+    border-radius: 10px;
+
+}
+
+
+.one{
+    margin-top: 20px;
+    width: 26%;
+    padding: 30px;
+    color: rgb(151, 90, 40);
+}
+.two{
+    /* background-color: yellow; */
+    
+    width: 74%;
+    gap: 10px;
+
+
+}
+.one button{
+    width: 120px;
+    background-color: rgb(187, 119, 64);
+    color: white;
+}
+.two .card{
+    height: 310px;
+    width: 175px;
+}
+
+.twoo img{
+    height: 150px;
+    /* width: 100px; */
+    cursor: pointer;
+}
