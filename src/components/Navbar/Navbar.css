@@ -45,9 +45,9 @@
     color: #5d2bc0;
 }
 
-.nav-container .nav-item:hover::after {
+/* .nav-container .nav-item:hover::after {
     background-color: #5d2bc0;
-}
+} */
 
 
 .profile1 {
@@ -91,6 +91,14 @@
 .modal-content {
     display: flex;
     background: linear-gradient(to bottom, #962bc0, #731b92); 
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mod1{
+    display: flex;
+    background-color: white;
     color: white;
     border-radius: 10px;
     position: relative;

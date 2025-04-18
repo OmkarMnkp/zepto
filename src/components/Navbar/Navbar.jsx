@@ -77,7 +77,7 @@ const Navbar = () => {
 
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
-                            <li className="nav-item dropdown">
+                            <li className="nav-item dropdown" >
 
                                 <a
                                     className="nav-link dropdown-toggle"
@@ -91,14 +91,14 @@ const Navbar = () => {
                                 </a>
 
                                 {/* Bootstrap Modal location */}
-                                <div className="modal fade" id="zeptoModal" tabIndex="-1" aria-labelledby="zeptoModalTitle" aria-hidden="true">
-                                    <div className=" modal-dialog bg-white">
-                                        <div className="  modal-content"  >
-                                            <div className="modal-header">
+                                <div className="modal fade" id="zeptoModal" tabIndex="-1" aria-labelledby="zeptoModalTitle" aria-hidden="true" >
+                                    <div className=" modal-dialog ">
+                                        <div className="  modal-content mod1"  >
+                                            <div className="modal-header"style={{backgroundColor:'white'}}>
                                                 <h1 className="modal-title fs-5" id="zeptoModalTitle">Your Location</h1>
                                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div className="modal-body">
+                                            <div className="modal-body"style={{backgroundColor:'white'}}>
                                                 <div class="mb-3">
                                                     {/* <label for="formGroupExampleInput" class="form-label">Example label</label> */}
 
