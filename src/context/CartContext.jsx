@@ -1,5 +1,7 @@
 import React, { createContext, useReducer } from "react";
 
+
+// cart context file
 const CartContext = createContext();
 
 const initialState = {
