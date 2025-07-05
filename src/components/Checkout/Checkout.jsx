@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import logo from '../../assets/logo.svg';
 import CartContext from "../../context/CartContext";
 
+// checkout page
 const Checkout = () => {
     const { cartItems } = useContext(CartContext);
 
