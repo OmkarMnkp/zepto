@@ -25,6 +25,8 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
+
+      {/* hello this is my app.jsx file */}
       <Route path="/" element={<All />} />
 
         <Route path="/all" element={<All />} />
